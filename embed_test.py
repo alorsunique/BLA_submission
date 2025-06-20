@@ -25,8 +25,8 @@ def get_embed(line_chunk_list):
 
     return(embedding_list)
 
-def store_embed_json(embedding_list):
-    json_embed_path = Path("embedding.json")
+def store_embed_json(embedding_list, json_embed_path):
+    
 
     if json_embed_path.exists():
         os.remove(json_embed_path)
@@ -42,9 +42,11 @@ if __name__ == "__main__":
 
     line_chunk_list = line_chunk(df)
 
+    json_path = Path("embedding.json")
+
     embedding_list = get_embed(line_chunk_list)
 
-    store_embed_json(embedding_list)
+    store_embed_json(embedding_list, json_path)
 
 
 
