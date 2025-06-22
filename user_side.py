@@ -1,6 +1,4 @@
 # This script should "simulate" the logic of the thing using the API
-
-
 import requests
 
 

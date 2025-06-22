@@ -3,16 +3,10 @@
 import embed_retrieve
 import pandas as pd
 from pathlib import Path
-
-
 from ollama import chat
 from ollama import ChatResponse
-
-
 from datetime import datetime
 import random
-
-
 import json
 
 

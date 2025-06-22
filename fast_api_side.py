@@ -1,6 +1,4 @@
 # Set up the API
-
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi import Request
@@ -28,7 +26,7 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         print(f"Error loading data: {e}")
 
-    yield  # Continue running the app
+    yield
 
 
 # Create the FastAPI app
@@ -64,7 +62,7 @@ class BookingInput(BaseModel):
     user_input: str
     shop_tuple: tuple
 
-
+# Endpoint that handles booking
 @app.post("/book/")
 async def book_table(input_data: BookingInput):
     from pathlib import Path
