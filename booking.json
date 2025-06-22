@@ -1,0 +1,37 @@
+[
+    {
+        "user_id": "20250622_152652_85668252",
+        "shop_name": "Bondi Bakes",
+        "shop_category": "Bakery",
+        "shop_location": "Bondi",
+        "message": "Yes book me a table please"
+    },
+    {
+        "user_id": "20250622_153240_58008343",
+        "shop_name": "The Drunken Sailor",
+        "shop_category": "Bar",
+        "shop_location": "Bronte",
+        "message": "Yes please. Book a table for 12"
+    },
+    {
+        "user_id": "20250622_153811_22346791",
+        "shop_name": "The Grove Table",
+        "shop_category": "Restaurant",
+        "shop_location": "Newtown",
+        "message": "Yes book me a table please."
+    },
+    {
+        "user_id": "20250622_154741_68906815",
+        "shop_name": "Bronte Bay Bistro",
+        "shop_category": "Bistro",
+        "shop_location": "Bronte",
+        "message": "Yes please book me a table for one"
+    },
+    {
+        "user_id": "20250622_224050_37618482",
+        "shop_name": "Sweet Crumbs",
+        "shop_category": "Bakery",
+        "shop_location": "Tamarama",
+        "message": "Yes. Book a table for one please."
+    }
+]
